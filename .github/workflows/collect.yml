@@ -2,7 +2,7 @@ name: Collect PM2.5 data
 
 on:
   schedule:
-    - cron: "5 * * * *"   # ทุกชั่วโมง (เวลา UTC) นาทีที่ 5
+    - cron: "10 * * * *"   # ทุกชั่วโมง (เวลา UTC) นาทีที่ 5
   workflow_dispatch:       # กดรันเองจากหน้า Actions ได้
 
 jobs:
